@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("HELLO , WELCOME TO THE DOCKER & KUBERNETES CLASS\n");
+  response.end("HELLO , To EVERYONE\n");
 });
 
 // listen on localhost:8000
